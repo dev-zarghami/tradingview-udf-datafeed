@@ -1,0 +1,28 @@
+{
+  "name": "tradingview-udf-datafeed",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs --dts --minify --out-dir dist --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-zarghami/tradingview-udf-datafeed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-zarghami/tradingview-udf-datafeed/issues"
+  },
+  "homepage": "https://github.com/dev-zarghami/tradingview-udf-datafeed#readme",
+  "description": "",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
